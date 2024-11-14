@@ -2,17 +2,21 @@
 
 This connector allows you to send messages to LINE WORKS chat rooms through the LINE WORKS Incoming Webhook app.
 
+You can send a message with a title and body, and optionally include a link button with a specified URL.
+
 ## Publisher : iwaohig
 
 ## Prerequisites
 
-LINE WORKS Incoming Webhook App
+Before using this connector, ensure that the LINE WORKS Incoming Webhook App is installed in your LINE WORKS tenant. For detailed installation instructions, please refer to the documentation at the following URL:
 
 https://developers.worksmobile.com/jp/docs/webhook
 
-## Supported Operations
-The connector supports the following operations:
-* `Send Message To LINE WORKS chat rooms through the LINE WORKS Incoming Webhook app.
+## Obtaining Credentials
 
-## Known Issues and Limitations
-N/A
+This connector does not require authentication. Identification is done through the webhookId, which is specified in the webhook URL.
+
+## Supported Operations
+This connector supports the following operation:
+
+Send Message: Sends a message to LINE WORKS chat rooms through the LINE WORKS Incoming Webhook app. This operation uses the specified webhookId to identify the target chat room.
