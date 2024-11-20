@@ -20,3 +20,6 @@ This connector does not require authentication. Identification is done through t
 This connector supports the following operation:
 
 Send Message: Sends a message to LINE WORKS chat rooms through the LINE WORKS Incoming Webhook app. This operation uses the specified webhookId to identify the target chat room.
+
+## Known Issues and Limitations
+N/A
